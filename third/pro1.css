@@ -1,0 +1,116 @@
+body{
+    width: 75vw;
+    height: 60vh;
+    margin: 70px auto;
+    padding: 25px 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    outline: 2px solid rgb(235, 148, 196);
+    outline-offset: 4px;
+    animation: blink 4s linear 1s infinite alternate both;
+    background-color: rgba(235, 148, 196,0.4);
+}
+.you,.rps{
+    text-align: center;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 30px;
+}
+.cal{
+    text-align: center;
+}
+.cal1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+    
+}
+.result{
+    font-size: 20px;
+}
+.res{
+    width: 50%;
+    padding: 14px 10px;
+    color:black;
+    background-color: transparent;
+    border: 1px solid rgb(160, 158, 158);
+    text-align: left;
+    border-radius: 5px;
+}
+.btn2{
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(35, 146, 15);
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgba(35, 146, 15,0.8);
+}
+.btn1:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+@keyframes blink{
+    0%{
+
+    }
+    10%{
+        transform: translate(0deg);
+         outline-color: rgb(100, 32, 217);
+         background-color: rgba(100, 32, 217,0.4);
+     }
+    20%{
+       transform: translate(40deg);
+        outline-color: aqua;
+        background-color: rgba(0,0,255,0.4);
+    }
+    30%{
+        transform: translate(80deg);
+         outline-color: rgb(13, 15, 158);
+         background-color: rgba(13, 15, 158,0.4);
+     }
+     
+    40%{
+        outline-color: rgb(180, 0, 0);
+        transform: translate(120deg);
+        background-color: rgba(180, 0, 0,0.4);
+    }
+    50%{
+        transform: translate(160deg);
+         outline-color: rgb(166, 45, 196);
+         background-color: rgba(166, 45, 196,0.4);
+     }
+    60%{
+        outline-color: rgb(64, 218, 134);
+        transform: translate(200deg);
+        background-color: rgba(64, 218, 134,0.4);
+    }
+    70%{
+        transform: translate(240deg);
+         outline-color: rgb(242, 255, 0);
+         background-color: rgba(242, 255, 0,0.4);
+     }
+    80%{
+        outline-color: rgb(255, 0, 174);
+        transform: translate(2800deg);
+        background-color: rgba(255, 0, 174,0.4);
+    }
+    90%{
+        transform: translate(320deg);
+         outline-color: rgb(255, 157, 0);
+         background-color: rgba(255, 157, 0,0.4);
+     }
+    100%{
+        outline-color: rgb(50, 197, 231);
+        transform: translate(360deg);
+        background-color: rgba(50, 197, 231,0.4);
+    }
+}
